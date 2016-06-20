@@ -84,7 +84,7 @@ client_stream.sample(lang: "ja") do |object|
 end
 
 ##TESTFIELD
-if if $0 == __FILE__
+if $0 == __FILE__
 # text = '@litos0816 http://example.com ABC事件とは東京特許許可局でバスガス爆発が緊急発生した事件のことです　#りとるすめも　って感じ'
 # text = %Q[いきたいUNISON SQUARE GARDEN BLUE ENCOUNT]
 
