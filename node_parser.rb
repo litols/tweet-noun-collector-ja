@@ -124,7 +124,7 @@ def parse_nodes(text,nm_enum)
 					space_flag = false
 				end
 				# puts "pushword3"
-				if complex_noun?(word)
+				if !words.empty? && complex_noun?(word)
 					words.push(word)
 					kanas.push(kana)
 					must_flag = true
