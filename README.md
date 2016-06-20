@@ -50,7 +50,7 @@ Collect japanese noun in Twitter and Twilog by using [mecab-ipadic-neologd](http
 [単語データ]\t[読み仮名データ]
 ```
 ただし、twitter-crawler.rbとtwilog-crawler.rbが出力するデータは、重複ありのデータになります。
-dup-remover.rbを用いて重複データを削除することが可能です。
+distinction.sqlを用いて重複データを削除することが可能です。
 
 ## 留意事項
 本プログラムはTwilogをスクレイピングする形で実装していますので、過負荷にならないよう1秒間隔でクロールするなど、節度を守り使用してください。
