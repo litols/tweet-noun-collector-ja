@@ -19,11 +19,11 @@ Collect japanese noun in Twitter and Twilog by using [mecab-ipadic-neologd](http
     - Twitterからデータを収集します。UserStreamを用いているので、常時起動型です。^Cで終了します。
     - 第一引数としてファイル名を与えると、そちらに書き出します。
     - 出力するデータは重複ありデータです
-- twilog-crawler.rb
+　- twilog-crawler.rb
     - twilogからデータを収集します。クロールが終了するまで起動します。^Cで終了します。
     - 第一引数としてファイル名を与えると、そちらに書き出します。
     - 出力するデータは重複ありのデータです
-- distinction.sql
+　- distinction.sql
     - 重複ありデータを整形して出力するSQLite3スクリプトです。catコマンド等を用いてパイプでsqlite3コマンドに流し込みます。
 
 ### それ以外
@@ -35,7 +35,7 @@ Collect japanese noun in Twitter and Twilog by using [mecab-ipadic-neologd](http
     - Consumer_keyなどを含むので、settings.rbをGitで共有しないでください。
 - tweet_normalize.rb
     - ツイートの正規化処理が記述されています。
- - node-parser.rb
+- node-parser.rb
     - [mecab-ipadic-neologd](https://github.com/neologd/mecab-ipadic-neologd)のWikiに掲載されている正規化スクリプトです。
 
 - その他Gemfileなど
