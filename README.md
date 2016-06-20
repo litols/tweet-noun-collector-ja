@@ -44,7 +44,8 @@ Collect japanese noun in Twitter and Twilog by using [mecab-ipadic-neologd](http
 収集したデータは、次に示すTSV形式で収集されます。
 
 実際にTwitter/Twilogから収集した重複のない単語データも、この形式で/dataフォルダに格納されています。
-（非常に大きいので開くときに注意）
+データはzip形式で圧縮されています。
+（非常に大きいので開くときに注意:10万語を超えています）
 ```
 [単語データ]\t[読み仮名データ]
 ```
