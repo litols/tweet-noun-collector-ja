@@ -35,7 +35,7 @@ Collect japanese noun in Twitter and Twilog by using [mecab-ipadic-neologd](http
     - Consumer_keyなどを含むので、settings.rbをGitで共有しないでください。
  - tweet_normalize.rb
     - ツイートの正規化処理が記述されています。
- - node-parser.rb
+ - normalize_neologd.rb
     - [mecab-ipadic-neologd](https://github.com/neologd/mecab-ipadic-neologd)のWikiに掲載されている正規化スクリプトです。
 
 - その他Gemfileなど
